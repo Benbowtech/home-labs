@@ -21,6 +21,8 @@ This repo is a work-in-progress log of my home lab setup. I'm using it to learn 
 
 I’ve worked in support roles before, but I wanted something hands-on at home where I could go deeper. This lab gives me space to break things, fix them, and keep learning. I’m aiming to build the skills I need for junior sysadmin roles or more technical support positions.
 
+Kali VMs.png
+
 More updates and screenshots coming soon.
 
 ### Contact
