@@ -6,7 +6,7 @@ I built this entirely in VirtualBox using evaluation ISO images from Microsoft.
 ## The Set Up
 
 I created a new VM in Virtualbox installed Windows Server 2022 Standard (Desktop Experience) so I could work with the GUI tools. The virtual disk was set to 50GB, dynamically allocated, and the VM was given 4GB RAM.
-[Server Setup](https://github.com/Benbowtech/home-labs/blob/main/images/Screenshot%202025-05-02%20165356.png)
+[Server Setup](https://github.com/Benbowtech/home-labs/blob/main/images/windows-server-setup.png)
 
 ## Installed Active Directory Domain Services
 From Server Manager I added the AD DS role and promoted the server to a domain controller.
