@@ -3,17 +3,20 @@ Setting up Windows Sever 2022 and Active Directory
 This home-lab project is part of my IT skills development and get hands-on with Windows Server and Active Directory. In this example was to set up a Windows Server 2022 and AD creating Organizational Units (OUs) and users.
 I built this entirely in VirtualBox using evaluation ISO images from Microsoft.
 
-1. The Set Up
-I created a new VM in Virtualbox installed Windows Server 2022 Standard (Desktop Experience) so I could work with the GUI tools. The virtual disk was set to 50GB, dynamically allocated, and the VM was given 4GB RAM.
+## The Set Up
 
-2. Installed Active Directory Domain Services
+I created a new VM in Virtualbox installed Windows Server 2022 Standard (Desktop Experience) so I could work with the GUI tools. The virtual disk was set to 50GB, dynamically allocated, and the VM was given 4GB RAM.
+[Server Setup](https://github.com/Benbowtech/home-labs/blob/main/images/Screenshot%202025-05-02%20165356.png)
+
+## Installed Active Directory Domain Services
 From Server Manager I added the AD DS role and promoted the server to a domain controller.
 
-3. Created Organizational Units
+## Created Organizational Units
 Using Active Directory Users and Computers, I created a few OUs to simulate a basic company structure in lab.local these include HR,IT and Sales.
 
-4. Created New Users
+## Created New Users
 I added sample users to each OU. For example: Hanna Frank in HR and David Brown in Sales. All new users in IT with password policies enforced
+![User Creation](https://github.com/Benbowtech/home-labs/blob/main/images/Screenshot 2025-05-04 143825.png)
 
 I wanted a real environment to practice: Setting up a domain from scratch, Learning how AD DS works in practice, Managing users, OUs, and password policies, Preparing for more advanced labs with GPOs, DNS, file shares, and domain joins
 
