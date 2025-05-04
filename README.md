@@ -6,7 +6,8 @@ This repo is a work-in-progress log of my home lab setup. I'm using it to learn 
 
 - **VirtualBox** for my virtual machines
 - A **Windows 10** VM for admin and support practice
-- A **Kali Linux** VM to explore basic tools and networking
+- A **Kali linux** VM to explore basic tools and networking
+- A **Windows Server 2022** VM to manage Active Directory, create users and OUs, and simulate a small domain environment
 - Host system: Windows 11
 
 ### Things I’m working on
